@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import { productsData } from "./Data";
+import { ProductCard } from "./ProductCart";
 
-function App() {
+const App = () => {
+  const [activeTab, setActiveTab] = useState("men");
+
+  const filteredProducts = productsData.filter(
+    (product) => product.category === activeTab
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="tabs">
+        <h3>SELECT YOUR CHOICE</h3> <br />
+        <button onClick={() => setActiveTab("men")}>Men</button>
+        <button onClick={() => setActiveTab("women")}>Women</button>
+        <button onClick={() => setActiveTab("kids")}>Kids</button>
+      </div>
+      <div className="product-container">
+        {filteredProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
     </div>
   );
-}
+};
 
 export default App;

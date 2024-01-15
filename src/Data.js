@@ -1,0 +1,167 @@
+export const productsData = [
+  {
+    id: 1,
+    category: "men",
+    image:
+      "https://img3.junaroad.com/uiproducts/18030711/zoom_0-1633963062.jpg",
+    badge: "New",
+    title: "Men Product 1",
+    vendor: "Vendor 1",
+    price: 29.99,
+    compareAtPrice: 39.99,
+  },
+  {
+    id: 2,
+    category: "men",
+    image:
+      "https://img3.junaroad.com/uiproducts/18030711/zoom_0-1633963062.jpg",
+    badge: "New",
+    title: "Men Product 1",
+    vendor: "Vendor 1",
+    price: 29.99,
+    compareAtPrice: 39.99,
+  },
+  {
+    id: 3,
+    category: "women",
+    image:
+      "https://img3.junaroad.com/uiproducts/17597378/zoom_0-1615639363.jpg",
+    badge: "Sale",
+    title: "Women Product 1",
+    vendor: "Vendor 2",
+    price: 49.99,
+    compareAtPrice: 59.99,
+  },
+  {
+    id: 4,
+    category: "kids",
+    image:
+      "https://apisap.fabindia.com/medias/10726942-1.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4MzJ8aW1hZ2UvanBlZ3xhRFJtTDJoaU1TODVNRE00T1RNd056Y3hPVGs0THpFd056STJPVFF5WHpFdWFuQm58YzU0ZWMwZTc5NzI5NTZiMTM1ZmFhNzkzNzExNDU3ZWMzZjJlOGRhMzBlNGFkY2UxM2NjNDA2ZjNjM2EwODdmMw",
+    badge: "Featured",
+    title: "Kids Product 1",
+    vendor: "Vendor 3",
+    price: 19.99,
+    compareAtPrice: 29.99,
+  },
+  {
+    id: 5,
+    category: "men",
+    image:
+      "https://img3.junaroad.com/uiproducts/18030711/zoom_0-1633963062.jpg",
+    badge: "New",
+    title: "Men Product 1",
+    vendor: "Vendor 1",
+    price: 29.99,
+    compareAtPrice: 39.99,
+  },
+  {
+    id: 6,
+    category: "men",
+    image:
+      "https://img3.junaroad.com/uiproducts/18030711/zoom_0-1633963062.jpg",
+    badge: "New",
+    title: "Men Product 1",
+    vendor: "Vendor 1",
+    price: 29.99,
+    compareAtPrice: 39.99,
+  },
+  {
+    id: 7,
+    category: "men",
+    image:
+      "https://img3.junaroad.com/uiproducts/18030711/zoom_0-1633963062.jpg",
+    badge: "New",
+    title: "Men Product 1",
+    vendor: "Vendor 1",
+    price: 29.99,
+    compareAtPrice: 39.99,
+  },
+  {
+    id: 8,
+    category: "women",
+    image:
+      "https://img3.junaroad.com/uiproducts/17597378/zoom_0-1615639363.jpg",
+    badge: "Sale",
+    title: "Women Product 1",
+    vendor: "Vendor 2",
+    price: 49.99,
+    compareAtPrice: 59.99,
+  },
+  {
+    id: 9,
+    category: "women",
+    image:
+      "https://img3.junaroad.com/uiproducts/17597378/zoom_0-1615639363.jpg",
+    badge: "Sale",
+    title: "Women Product 1",
+    vendor: "Vendor 2",
+    price: 49.99,
+    compareAtPrice: 59.99,
+  },
+  {
+    id: 10,
+    category: "women",
+    image:
+      "https://img3.junaroad.com/uiproducts/17597378/zoom_0-1615639363.jpg",
+    badge: "Sale",
+    title: "Women Product 1",
+    vendor: "Vendor 2",
+    price: 49.99,
+    compareAtPrice: 59.99,
+  },
+  {
+    id: 11,
+    category: "women",
+    image:
+      "https://img3.junaroad.com/uiproducts/17597378/zoom_0-1615639363.jpg",
+    badge: "Sale",
+    title: "Women Product 1",
+    vendor: "Vendor 2",
+    price: 49.99,
+    compareAtPrice: 59.99,
+  },
+  {
+    id: 12,
+    category: "kids",
+    image:
+      "https://apisap.fabindia.com/medias/10726942-1.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4MzJ8aW1hZ2UvanBlZ3xhRFJtTDJoaU1TODVNRE00T1RNd056Y3hPVGs0THpFd056STJPVFF5WHpFdWFuQm58YzU0ZWMwZTc5NzI5NTZiMTM1ZmFhNzkzNzExNDU3ZWMzZjJlOGRhMzBlNGFkY2UxM2NjNDA2ZjNjM2EwODdmMw",
+    badge: "Featured",
+    title: "Kids Product 1",
+    vendor: "Vendor 3",
+    price: 19.99,
+    compareAtPrice: 29.99,
+  },
+  {
+    id: 13,
+    category: "kids",
+    image:
+      "https://apisap.fabindia.com/medias/10726942-1.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4MzJ8aW1hZ2UvanBlZ3xhRFJtTDJoaU1TODVNRE00T1RNd056Y3hPVGs0THpFd056STJPVFF5WHpFdWFuQm58YzU0ZWMwZTc5NzI5NTZiMTM1ZmFhNzkzNzExNDU3ZWMzZjJlOGRhMzBlNGFkY2UxM2NjNDA2ZjNjM2EwODdmMw",
+    badge: "Featured",
+    title: "Kids Product 1",
+    vendor: "Vendor 3",
+    price: 19.99,
+    compareAtPrice: 29.99,
+  },
+  {
+    id: 14,
+    category: "kids",
+    image:
+      "https://apisap.fabindia.com/medias/10726942-1.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4MzJ8aW1hZ2UvanBlZ3xhRFJtTDJoaU1TODVNRE00T1RNd056Y3hPVGs0THpFd056STJPVFF5WHpFdWFuQm58YzU0ZWMwZTc5NzI5NTZiMTM1ZmFhNzkzNzExNDU3ZWMzZjJlOGRhMzBlNGFkY2UxM2NjNDA2ZjNjM2EwODdmMw",
+    badge: "Featured",
+    title: "Kids Product 1",
+    vendor: "Vendor 3",
+    price: 19.99,
+    compareAtPrice: 29.99,
+  },
+  {
+    id: 15,
+    category: "kids",
+    image:
+      "https://apisap.fabindia.com/medias/10726942-1.jpg?context=bWFzdGVyfGltYWdlc3w4NTQ4MzJ8aW1hZ2UvanBlZ3xhRFJtTDJoaU1TODVNRE00T1RNd056Y3hPVGs0THpFd056STJPVFF5WHpFdWFuQm58YzU0ZWMwZTc5NzI5NTZiMTM1ZmFhNzkzNzExNDU3ZWMzZjJlOGRhMzBlNGFkY2UxM2NjNDA2ZjNjM2EwODdmMw",
+    badge: "Featured",
+    title: "Kids Product 1",
+    vendor: "Vendor 3",
+    price: 19.99,
+    compareAtPrice: 29.99,
+  },
+];
